@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Modern şrift */
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa; /* Açıq fon */
+    color: #333; /* Neytral mətn rəngi */
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff6f61); /* Gradient fon */
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Yüngül kölgə effekti */
+    border-bottom: 5px solid #ff6f61; /* Alt xətt vurğusu */
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    background-color: #ff6f61; /* Canlı rəng fon */
+    padding: 1em 0;
+    border-radius: 0 0 15px 15px; /* Yumşaq künclər */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffdf85; /* Parlaq sarı hover effekti */
+    transform: scale(1.1); /* Kiçik böyütmə effekti */
+}
+
+/* Main Content */
+main {
+    padding: 3em;
+    text-align: center;
+    background-color: #ffffff; /* Təmiz ağ fon */
+    margin: 2em auto;
+    max-width: 900px;
+    border-radius: 20px; /* Daha yumşaq künclər */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Kart effekti */
+}
+
+/* Members Section */
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap; /* Kiçik ekranlar üçün uyğun dizayn */
+}
+
+.member {
+    text-align: center;
+    margin: 1em;
+    background: linear-gradient(145deg, #ffdf85, #f5a623); /* Gradient kart fonu */
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Yumşaq kölgə */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member:hover {
+    transform: translateY(-10px); /* Hover zamanı kart qalxır */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Yumşaq kölgə */
+    transition: transform 0.3s ease;
+}
+
+.member img:hover {
+    transform: scale(1.1); /* Hover zamanı böyümə */
+}
+
+.member h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1em;
+}
+
+.member p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #ff6f61, #ff758c, #ff7eb3); /* Gradient fon */
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    font-size: 1rem;
+    margin-top: 2em;
+    border-top: 5px solid #ff6f61;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Button (for optional interactivity) */
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff758c;
+    transform: translateY(-3px);
+}
